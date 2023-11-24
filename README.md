@@ -80,7 +80,9 @@ Deployment
 In order to implement the project, include the given Python script into your data analysis workflow or set it up to execute on a regular basis.
 
 Author
+
 Manpreet Kaur
 
 License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
