@@ -1,15 +1,26 @@
 # Data-Analysis-tools
+youtube channel Analysis
 
-**Introduction
-Welcome!**
-In this coding, you will learn how to use Python (pandas) for preprocessing your data when Imported from a SQL databease and you will be familiar with the connection methods and how you can run SQL Queries using Python.
+#Short description
+In this python script to analyze a dataset related to YouTube channels, Python and pandas are used. The main objective is to calculate the distribution of channel types from top 1000 records, refining the dataset and importing it into my SQL database.
 
+#**Getting started**
+#**Prerequisites**
+You will have to install Anaconda Python Pandas Library My SQL Database
+#**Installing**
+Firstly, you will have to install the required Python packages. In your terminal or Jupyter notebook cell, you can use the following commands:
 **#Import Python Libraries**
 
 import pandas as pd
 
 import numpy as np
 
+#Running the analysis
+Download the assignment4 omar.ipynb
+File To download the file 
+Start Jupyter Notebook Open Jupyter Notebook on your local machine.
+
+Locate and Open the Notebook Navigate to the "Files" section of Jupyter Notebook and locate the downloaded assignment4.ipynb file. Click on the file to open it.Run the Analysis In the opened notebook, start running the cells one by one. Change the path according to the location where you downloaded it.Change MySQL Credentials Update the MySQL credentials in the notebook to match the ones set in your MySQL Workbench. Execute the Notebook Continue running the cells, following the instructions provided in the notebook
 # Load the dataset
 data1 = pd.read_csv('youtube_dataset.csv', encoding='latin-1')
 
