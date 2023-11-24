@@ -75,11 +75,12 @@ table_name = 'top_1000_channels.csv'
 # Write the DataFrame to the MySQL table
 data2.to_sql(table_name, con=engine, if_exists='replace', index=False)
 
-**Deployment**
+Deployment
+
 In order to implement the project, include the given Python script into your data analysis workflow or set it up to execute on a regular basis.
 
-**Author**
+Author
 Manpreet Kaur
 
-**License**
+License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
